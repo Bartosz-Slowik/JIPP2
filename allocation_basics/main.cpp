@@ -9,26 +9,10 @@ using namespace std;
 
 int main(int argc, char *argv[]) {
 
-    int pierwsza = stoi(argv[2]);
-    int druga = stoi(argv[3]);
 
-    if (argv[1]=="add"){
-        cout<<pierwsza+druga<<endl;
-        return 0;
-    }
-    if (argv[1]=="substract"){
-        cout<<pierwsza-druga<<endl;
-        return 0;
-    }
-    if (argv[1]=="volume"){
-        cout<<pierwsza+druga<<endl;
-        return 0;
-    }
-    if (argv[1]=="help"){
+    int c = stoi(argv[2]);
+    cout << c <<endl;
 
-    }
-
-/*
     int *n = new int;
 
     int k;
@@ -48,6 +32,5 @@ int main(int argc, char *argv[]) {
         delete tabDd[i];
     }
     delete[] tabDd;
-    */
     return 0;
 }
