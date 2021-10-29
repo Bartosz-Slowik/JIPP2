@@ -5,7 +5,20 @@
 #include <iostream>
 
 
-
+void help(){
+    using namespace std;
+    cout<< "Kalkulator macierzy - Aby dokonać obliczeń jako pierwszy argument programu użyj jednej z poniższych nazw:\n"
+           "addMatrix - dodawanie dwóch macierzy\n"
+           "subtractMatrix - odejmowanie dwóch macierzy\n"
+           "multiplyMatrix - mnożenie dwóch macierzy\n"
+           "multiplyByScalar - mnożenie przez skalar\n"
+           "transpozeMatrix - transponowanie macierzy\n"
+           "powerMatrix - potęgowanie macierzy\n"
+           "determinantMatrix - wyznacznik macierzy \n"
+           "matrixIsDiagonal - sprawdzanie czy macierz jest diagonalna\n"
+           "sortRowsInMatrix - sortowanie wszystkich wierszy w macierzy Sortowanie jest rosnące\n"
+           "help - Wyswietla pomoc ktora wlasnie czytasz\n";
+}
 
 int **createIntResultMatrix(int row, int col) {
     int **result;
@@ -25,30 +38,36 @@ double **createDoubleResultMatrix(int row, int col) {
     return result;
 }
 
-void userGeneratedArray(int **array, int row, int col) {
+int**  userGeneratedArray(int ** array, int row, int col) {
     using namespace std;
-    array = createIntResultMatrix( row, col);
+    cout<<endl<<"Podaj kolejno elementy tablicy oddzielajac je spacja/enterem: "<<endl;
     for (int k = 0; k < row; k++) {
         for (int m = 0; m < col; m++) {
-            cin>>array[k][m];
-
+            cin >> array[k][m];
+            if (cin.fail()) {
+                help();
+                return 0;
+            }
         }
     }
+    return array;
 }
 
-void userGeneratedArray(double **array, int row, int col) {
+double** userGeneratedArray(double **array, int row, int col) {
     using namespace std;
-    array = createDoubleResultMatrix( row, col);
+    cout<<endl<<"Podaj elementy tablicy oddzielajac je spacja/enterem: "<<endl;
     for (int k = 0; k < row; k++) {
         for (int m = 0; m < col; m++) {
             cin>>array[k][m];
 
         }
     }
+    return array;
 }
 
 void printArray(int **array, int row, int col) {
     using namespace std;
+    cout<<endl;
     for (int i = 0; i < row; i++) {
         for (int j = 0; j < col; j++) {
             cout << array[i][j] << " ";
@@ -59,6 +78,7 @@ void printArray(int **array, int row, int col) {
 
 void printArray(double **array, int row, int col) {
     using namespace std;
+    cout<<endl;
     for (int i = 0; i < row; i++) {
         for (int j = 0; j < col; j++) {
             cout << array[i][j] << " ";
@@ -233,7 +253,7 @@ double recursiveDet(int n, int w, int *WK, double **A) {
     }
 }
 
-double detMatrix(double **arr, int n) {
+double determinantMatrix(double **arr, int n) {
     int *WK; // wektor kolumn
     WK = new int[n]; // tworzymy wiersz kolumn
     for (int i = 0; i < n; i++) WK[i] = i;
@@ -266,7 +286,7 @@ int recursiveDet(int n, int w, int *WK, int **A) {
     }
 }
 
-int detMatrix(int **arr, int n) {
+int determinantMatrix(int **arr, int n) {
     int *WK; // wektor kolumn
     WK = new int[n]; // tworzymy wiersz kolumn
     for (int i = 0; i < n; i++) WK[i] = i;
@@ -320,4 +340,21 @@ double **sortRowsInMatrix(double **arr, int row, int col) {
         result[i]=sortRow(arr[i],col);
     return result;
 }
+bool matrixIsDiagonal(int **arr, int row, int col){
+    for (int i = 0; i < row; i++) {
+        for (int j = 0; j < col; j++) {
+            if (arr[i][j]!=0 && i!=j) return 0;
+        }
+    }
+    return 1;
+}
+bool matrixIsDiagonal(double **arr, int row, int col){
+    for (int i = 0; i < row; i++) {
+        for (int j = 0; j < col; j++) {
+            if (arr[i][j]!=0 && i!=j) return 0;
+        }
+    }
+    return 1;
+}
+
 

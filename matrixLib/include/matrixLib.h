@@ -4,8 +4,10 @@
 
 #include <iostream>
 
-
-
+/**
+ * Display help text
+ */
+void help();
 /**
  * Function creates an empty Integer matrix
  * @param row #of rows
@@ -26,11 +28,14 @@ double **createDoubleResultMatrix(int row, int col);
  * @param col #of rows
  * @param row #of columns
  */
-void userGeneratedArray(int** array, int col, int row);
+int** userGeneratedArray(int** array, int row, int col);
 /**
-overloaded version of above function (this one takes double type input)
+ * Uses cin to fill an array by user.
+ * @param array empty array
+ * @param col #of rows
+ * @param row #of columns
  */
-void userGeneratedArray(double** &array, int col, int row);
+double** userGeneratedArray(double** array, int row, int col);
 /**
  * Prints an array on the standard output
  * @param array array to print
@@ -39,7 +44,10 @@ void userGeneratedArray(double** &array, int col, int row);
  */
 void printArray(int **array, int row, int col);
 /**
-overloaded version of above function (this one takes double type input)
+ * Prints an array on the standard output
+ * @param array array to print
+ * @param row #of rows
+ * @param col #of columns
  */
 void printArray(double **array, int row, int col);
 /**
@@ -163,7 +171,7 @@ void clear(int **array, int i, int j);
  */
 void clear(double **array, int i, int j);
 /**
- * recursive helper function for detMatrix function
+ * recursive helper function for determinantMatrix function
  * @return new result array
  */
 int recursiveDet(int n, int w, int *WK, int **A);
@@ -173,9 +181,9 @@ int recursiveDet(int n, int w, int *WK, int **A);
  * @param n #of columns
  * @return return a determinant number
  */
-int  detMatrix(int** arr, int n);
+int  determinantMatrix(int** arr, int n);
 /**
- * recursive helper function for detMatrix function
+ * recursive helper function for determinantMatrix function
  * @return new result array
  */
 double recursiveDet(int n, int w, int *WK, double **A);
@@ -185,7 +193,7 @@ double recursiveDet(int n, int w, int *WK, double **A);
  * @param n #of columns
  * @return return a determinant number
  */
-double detMatrix(double** arr, int n);
+double determinantMatrix(double** arr, int n);
 /**
  * swaps two numbers
  * @param a first number
@@ -229,3 +237,19 @@ int** sortRowsInMatrix(int** arr, int row, int col);
  * @return returns new matrix with sorted rows
  */
 double** sortRowsInMatrix(double** arr, int row, int col);
+/**
+ * Calculates whether the matrix is diagonal or not
+ * @param arr our array
+ * @param row #of rows
+ * @param col #of columns
+ * @return true or false
+ */
+bool matrixIsDiagonal(int **arr, int row, int col);
+/**
+ * Calculates whether the matrix is diagonal or not
+ * @param arr our array
+ * @param row #of rows
+ * @param col #of columns
+ * @return true or false
+ */
+bool matrixIsDiagonal(double **arr, int row, int col);
