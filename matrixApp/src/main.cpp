@@ -15,6 +15,7 @@ int main(int argc, char * argv[]) {
         int ** array, ** array2, ** result;
         cout<<"Jakiej wielkosci bedzie macierz? (ilosc_wierszy (spacja) ilosc_kolumn)";
         cin>>row>>col;
+        array = createIntResultMatrix(row,col);
         userGeneratedArray(array, row, col);
 
         cout<<endl<<"Podano: ";
@@ -24,6 +25,7 @@ int main(int argc, char * argv[]) {
         if (argv[1]=="addMatrix"){
             cout<<endl<<"Ilosc kolumn drugiej macierzy: ";
             cin>>col2;
+            array2 = createIntResultMatrix(row,col);
             userGeneratedArray(array2, row, col2);
             printArray(array2,row,col2);
             result = addMatrix(array,array2,row,col);
@@ -32,6 +34,7 @@ int main(int argc, char * argv[]) {
         else if (argv[1]=="subtractMatrix"){
             cout<<endl<<"Ilosc kolumn drugiej macierzy: ";
             cin>>col2;
+            array2 = createIntResultMatrix(row,col);
             userGeneratedArray(array2, row, col2);
             printArray(array2,row,col2);
             result = subtractMatrix(array,array2,row,col);
@@ -41,6 +44,7 @@ int main(int argc, char * argv[]) {
         else if (argv[1]=="multiplyMatrix"){
             cout<<endl<<"Ilosc kolumn drugiej macierzy: ";
             cin>>col2;
+            array2 = createIntResultMatrix(row,col);
             userGeneratedArray(array2, row, col2);
             printArray(array2,row,col2);
             result = multiplyMatrix(array,array2,row,col,col2);

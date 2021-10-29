@@ -27,10 +27,6 @@ double **createDoubleResultMatrix(int row, int col) {
 
 void userGeneratedArray(int **array, int row, int col) {
     using namespace std;
-    cout<<endl<<"Podaj ilosc wierszy macierzy: ";
-    cin>>row;
-    cout<<endl<<"Podaj ilosc kolumn macierzy: ";
-    cin>>col;
     array = createIntResultMatrix( row, col);
     for (int k = 0; k < row; k++) {
         for (int m = 0; m < col; m++) {
@@ -40,12 +36,8 @@ void userGeneratedArray(int **array, int row, int col) {
     }
 }
 
-void userGeneratedArray(double **&array, int row, int col) {
+void userGeneratedArray(double **array, int row, int col) {
     using namespace std;
-    cout<<endl<<"Podaj ilosc wierszy macierzy: ";
-    cin>>row;
-    cout<<endl<<"Podaj ilosc kolumn macierzy: ";
-    cin>>col;
     array = createDoubleResultMatrix( row, col);
     for (int k = 0; k < row; k++) {
         for (int m = 0; m < col; m++) {
