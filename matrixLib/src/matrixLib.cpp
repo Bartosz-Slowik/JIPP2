@@ -128,12 +128,11 @@ double **subtractMatrix(double **arr, double **arr2, int row, int col) {
 }
 
 int **multiplyMatrix(int **arr, int **arr2, int row, int col, int m) {
-    int **result = createIntResultMatrix(row, col);
-
+    int **result = createIntResultMatrix(row, m);
     for (int a = 0; a < row; a++) {
         for (int b = 0; b < m; b++) {
             result[a][b] = 0;
-            for (int c = 0; c < col; c++) {
+            for (int c = 0; c < m; c++) {
                 result[a][b] += arr[a][c] * arr2[c][b];
             }
         }
@@ -142,12 +141,12 @@ int **multiplyMatrix(int **arr, int **arr2, int row, int col, int m) {
 }
 
 double **multiplyMatrix(double **arr, double **arr2, int row, int col, int m) {
-    double **result = createDoubleResultMatrix(row, col);
+    double **result = createDoubleResultMatrix(row, m);
 
     for (int a = 0; a < row; a++) {
         for (int b = 0; b < m; b++) {
             result[a][b] = 0;
-            for (int c = 0; c < col; c++) {
+            for (int c = 0; c < m; c++) {
                 result[a][b] += arr[a][c] * arr2[c][b];
             }
         }

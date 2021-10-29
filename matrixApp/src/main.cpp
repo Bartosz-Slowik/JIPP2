@@ -11,6 +11,10 @@ int main(int argc, char * argv[]) {
     bool isInt=0;
     cout<<"Czy tablica bedzie typu int (wpisz 1) czy typu double(wpisz 0) ?"<<endl;
     cin>>isInt;
+    if(cin.fail()){
+        help();
+        return 0;
+    }
     if (argc!=2){ //wyswietlenie help jesli liczba argumentow nie bedzie dobra
         help();
         return 0;
@@ -65,7 +69,7 @@ int main(int argc, char * argv[]) {
             printArray(array2,row,col2);
             result = multiplyMatrix(array,array2,row,col,col2);
             cout<<endl<<"Wynik "<<argv[1]<<" : ";
-            printArray(result,row,col);
+            printArray(result,row,col2);
             clear(array2, row, col);
 
         }
@@ -195,7 +199,7 @@ int main(int argc, char * argv[]) {
             printArray(array2,row,col2);
             result = multiplyMatrix(array,array2,row,col,col2);
             cout<<endl<<"Wynik "<<argv[1]<<" : ";
-            printArray(result,row,col);
+            printArray(result,row,col2);
             clear(array2, row, col);
 
         }
