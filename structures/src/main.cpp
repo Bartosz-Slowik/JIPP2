@@ -34,7 +34,7 @@ int main(){
     for(int j=0; j<4; j++){
         cout << car[j].rokP<<" | ";
     }
-
+//zadanie
 
     return 0;
 }
