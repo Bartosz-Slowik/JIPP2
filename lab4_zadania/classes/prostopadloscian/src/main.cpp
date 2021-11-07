@@ -9,9 +9,8 @@
 using namespace std;
 
 int main(){
-    prostopadloscian pierwszy = {1,2,3};
+    prostopadloscian pierwszy = {1, 2, 3};
     cout<< pierwszy.licz();
 
     return 0;
 }
-//zadanie

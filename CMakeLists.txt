@@ -8,9 +8,7 @@ add_subdirectory(first_lib)
 
 add_subdirectory(first_lib_call)
 
-add_subdirectory(first_classes)
-
-add_subdirectory(structures)
+add_subdirectory(lab4_zadania)
 
 add_subdirectory(matrixApp)
 

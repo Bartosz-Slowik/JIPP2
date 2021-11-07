@@ -105,7 +105,7 @@ int **multiplyMatrix(int **arr, int **arr2, int row, int col, int m);
  */
 double **multiplyMatrix(double **arr, double **arr2, int row, int col, int m);
 /**
- * Multiplies a Matrix by scalar number
+ * Multiplies first Matrix by scalar number
  * @param arr our matrix
  * @param row #of rows
  * @param col #of columns
@@ -114,7 +114,7 @@ double **multiplyMatrix(double **arr, double **arr2, int row, int col, int m);
  */
 int **multiplyByScalar(int **arr, int row, int col, int scalar);
 /**
- * Multiplies a Matrix by scalar number
+ * Multiplies first Matrix by scalar number
  * @param arr our matrix
  * @param row #of rows
  * @param col #of columns
@@ -123,7 +123,7 @@ int **multiplyByScalar(int **arr, int row, int col, int scalar);
  */
 double **multiplyByScalar(double **arr, int row, int col, double scalar);
 /**
- * Transposes a matrix
+ * Transposes first matrix
  * @param arr our matrix
  * @param row #of rows
  * @param col #of columns
@@ -131,7 +131,7 @@ double **multiplyByScalar(double **arr, int row, int col, double scalar);
  */
 int **transpozeMatrix(int **arr, int row, int col);
 /**
- * Transposes a matrix
+ * Transposes first matrix
  * @param arr our matrix
  * @param row #of rows
  * @param col #of columns
@@ -139,7 +139,7 @@ int **transpozeMatrix(int **arr, int row, int col);
  */
 double **transpozeMatrix(double **arr, int row, int col);
 /**
- * Takes a matrix to the power of  power
+ * Takes first matrix to the power of  power
  * @param power integer of power
  * @param arr our matrix
  * @param row #of rows
@@ -148,7 +148,7 @@ double **transpozeMatrix(double **arr, int row, int col);
  */
 int **powerMatrix(int **arr, int row, int col,  int power);
 /**
- * Takes a matrix to the power of power
+ * Takes first matrix to the power of power
  * @param power integer of power
  * @param arr our matrix
  * @param row #of rows
@@ -157,14 +157,14 @@ int **powerMatrix(int **arr, int row, int col,  int power);
  */
 double **powerMatrix(double **arr, int row, int col,  int power);
 /**
- * deletes a matrix
+ * deletes first matrix
  * @param array our matrix
  * @param i #of rows
  * @param j #of cols
  */
 void clear(int **array, int i, int j);
 /**
- * deletes a matrix
+ * deletes first matrix
  * @param array our matrix
  * @param i #of rows
  * @param j #of cols
@@ -176,10 +176,10 @@ void clear(double **array, int i, int j);
  */
 int recursiveDet(int n, int w, int *WK, int **A);
 /**
- * Calculates a determinant of a given matrix
+ * Calculates first determinant of first given matrix
  * @param arr our array
  * @param n #of columns
- * @return return a determinant number
+ * @return return first determinant number
  */
 int  determinantMatrix(int** arr, int n);
 /**
@@ -188,10 +188,10 @@ int  determinantMatrix(int** arr, int n);
  */
 double recursiveDet(int n, int w, int *WK, double **A);
 /**
- * Calculates a determinant of a given matrix
+ * Calculates first determinant of first given matrix
  * @param arr our array
  * @param n #of columns
- * @return return a determinant number
+ * @return return first determinant number
  */
 double determinantMatrix(double** arr, int n);
 /**
@@ -222,7 +222,7 @@ int* sortRow(int* arr, int col);
  */
 double* sortRow(double* arr, int col);
 /**
- * Sorts every row in a matrix using function sortRow
+ * Sorts every row in first matrix using function sortRow
  * @param arr our matrix
  * @param row #of rows
  * @param col #of columns
@@ -230,7 +230,7 @@ double* sortRow(double* arr, int col);
  */
 int** sortRowsInMatrix(int** arr, int row, int col);
 /**
- * Sorts every row in a matrix using function sortRow
+ * Sorts every row in first matrix using function sortRow
  * @param arr our matrix
  * @param row #of rows
  * @param col #of columns
