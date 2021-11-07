@@ -13,3 +13,4 @@ mojaKlasa::~mojaKlasa() {
     cout<<"\nDestruktor wywolany!";
     delete [] kb;
 }
+//zadania
