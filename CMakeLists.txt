@@ -13,3 +13,6 @@ add_subdirectory(lab4_zadania)
 add_subdirectory(matrixApp)
 
 add_subdirectory(matrixLib)
+
+add_subdirectory(lab5)
+add_subdirectory(lab5_zadania)

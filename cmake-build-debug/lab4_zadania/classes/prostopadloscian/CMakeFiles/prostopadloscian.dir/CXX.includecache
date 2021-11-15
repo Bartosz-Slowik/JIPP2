@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/ASUS/CLionProjects/JIPP2/lab4_zadania/classes/prostopadloscian/include/Prostopadloscian.h
+iostream
+-
+
+C:/Users/ASUS/CLionProjects/JIPP2/lab4_zadania/classes/prostopadloscian/src/main.cpp
+iostream
+-
+../include/Prostopadloscian.h
+C:/Users/ASUS/CLionProjects/JIPP2/lab4_zadania/classes/prostopadloscian/include/Prostopadloscian.h
+
+C:/Users/ASUS/CLionProjects/JIPP2/lab4_zadania/classes/prostopadloscian/src/prostopadloscian.cpp
+../include/Prostopadloscian.h
+C:/Users/ASUS/CLionProjects/JIPP2/lab4_zadania/classes/prostopadloscian/include/Prostopadloscian.h
+

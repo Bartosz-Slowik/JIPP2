@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="first_classes"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;CMake Files\allocation_basics\;CMake Files\simple_calc\;CMake Files\first_lib\;CMake Files\first_lib_call\;CMake Files\lab4_zadania\;CMake Files\lab4_zadania\classes\;CMake Files\lab4_zadania\structures\;CMake Files\matrixApp\;CMake Files\matrixLib\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/ASUS/CLionProjects/JIPP2/cmake-build-debug/lab4_zadania/classes"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\ASUS\CLionProjects\JIPP2\cmake-build-debug\lab4_zadania\classes\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\ASUS\CLionProjects\JIPP2\cmake-build-debug\lab4_zadania\classes\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\ASUS\CLionProjects\JIPP2\cmake-build-debug\lab4_zadania\classes\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\ASUS\CLionProjects\JIPP2\cmake-build-debug\lab4_zadania\classes\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="first_classes">
+				<Option output="C:/Users/ASUS/CLionProjects/JIPP2/cmake-build-debug/lab4_zadania/classes/first_classes.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ASUS/CLionProjects/JIPP2/cmake-build-debug/lab4_zadania/classes"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/ASUS/CLionProjects/JIPP2/lab4_zadania/classes/include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\ASUS\CLionProjects\JIPP2\cmake-build-debug\lab4_zadania\classes\Makefile VERBOSE=1 first_classes"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\ASUS\CLionProjects\JIPP2\cmake-build-debug\lab4_zadania\classes\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\ASUS\CLionProjects\JIPP2\cmake-build-debug\lab4_zadania\classes\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\ASUS\CLionProjects\JIPP2\cmake-build-debug\lab4_zadania\classes\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="first_classes/fast">
+				<Option output="C:/Users/ASUS/CLionProjects/JIPP2/cmake-build-debug/lab4_zadania/classes/first_classes.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ASUS/CLionProjects/JIPP2/cmake-build-debug/lab4_zadania/classes"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/ASUS/CLionProjects/JIPP2/lab4_zadania/classes/include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\ASUS\CLionProjects\JIPP2\cmake-build-debug\lab4_zadania\classes\Makefile VERBOSE=1 first_classes/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\ASUS\CLionProjects\JIPP2\cmake-build-debug\lab4_zadania\classes\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\ASUS\CLionProjects\JIPP2\cmake-build-debug\lab4_zadania\classes\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\ASUS\CLionProjects\JIPP2\cmake-build-debug\lab4_zadania\classes\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/ASUS/CLionProjects/JIPP2/lab4_zadania/classes/src/main.cpp">
+			<Option target="first_classes"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/CLionProjects/JIPP2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/CLionProjects/JIPP2/allocation_basics/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\allocation_basics\"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/CLionProjects/JIPP2/simple_calc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\simple_calc\"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/CLionProjects/JIPP2/first_lib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\first_lib\"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/CLionProjects/JIPP2/first_lib_call/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\first_lib_call\"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/CLionProjects/JIPP2/lab4_zadania/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab4_zadania\"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/CLionProjects/JIPP2/lab4_zadania/classes/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab4_zadania\classes\"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/CLionProjects/JIPP2/lab4_zadania/structures/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab4_zadania\structures\"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/CLionProjects/JIPP2/matrixApp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\matrixApp\"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/CLionProjects/JIPP2/matrixLib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\matrixLib\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
