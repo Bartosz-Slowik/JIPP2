@@ -61,6 +61,11 @@ all: matrixApp\all
 all: matrixLib\all
 all: lab5\all
 all: lab5_zadania\all
+all: lab6\all
+all: lab7\all
+all: lab8\all
+all: lab9\all
+all: lab10\all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -73,6 +78,11 @@ preinstall: matrixApp\preinstall
 preinstall: matrixLib\preinstall
 preinstall: lab5\preinstall
 preinstall: lab5_zadania\preinstall
+preinstall: lab6\preinstall
+preinstall: lab7\preinstall
+preinstall: lab8\preinstall
+preinstall: lab9\preinstall
+preinstall: lab10\preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
@@ -85,6 +95,11 @@ clean: matrixApp\clean
 clean: matrixLib\clean
 clean: lab5\clean
 clean: lab5_zadania\clean
+clean: lab6\clean
+clean: lab7\clean
+clean: lab8\clean
+clean: lab9\clean
+clean: lab10\clean
 .PHONY : clean
 
 #=============================================================================
@@ -131,6 +146,21 @@ first_lib_call\preinstall:
 # Recursive "clean" directory target.
 first_lib_call\clean: first_lib_call\CMakeFiles\first_lib_call.dir\clean
 .PHONY : first_lib_call\clean
+
+#=============================================================================
+# Directory level rules for directory lab10
+
+# Recursive "all" directory target.
+lab10\all: lab10\CMakeFiles\lab10.dir\all
+.PHONY : lab10\all
+
+# Recursive "preinstall" directory target.
+lab10\preinstall:
+.PHONY : lab10\preinstall
+
+# Recursive "clean" directory target.
+lab10\clean: lab10\CMakeFiles\lab10.dir\clean
+.PHONY : lab10\clean
 
 #=============================================================================
 # Directory level rules for directory lab4_zadania
@@ -280,6 +310,66 @@ lab5_zadania\clean: lab5_zadania\CMakeFiles\lab5_zadania.dir\clean
 .PHONY : lab5_zadania\clean
 
 #=============================================================================
+# Directory level rules for directory lab6
+
+# Recursive "all" directory target.
+lab6\all: lab6\CMakeFiles\lab6.dir\all
+.PHONY : lab6\all
+
+# Recursive "preinstall" directory target.
+lab6\preinstall:
+.PHONY : lab6\preinstall
+
+# Recursive "clean" directory target.
+lab6\clean: lab6\CMakeFiles\lab6.dir\clean
+.PHONY : lab6\clean
+
+#=============================================================================
+# Directory level rules for directory lab7
+
+# Recursive "all" directory target.
+lab7\all: lab7\CMakeFiles\lab7.dir\all
+.PHONY : lab7\all
+
+# Recursive "preinstall" directory target.
+lab7\preinstall:
+.PHONY : lab7\preinstall
+
+# Recursive "clean" directory target.
+lab7\clean: lab7\CMakeFiles\lab7.dir\clean
+.PHONY : lab7\clean
+
+#=============================================================================
+# Directory level rules for directory lab8
+
+# Recursive "all" directory target.
+lab8\all: lab8\CMakeFiles\lab8.dir\all
+.PHONY : lab8\all
+
+# Recursive "preinstall" directory target.
+lab8\preinstall:
+.PHONY : lab8\preinstall
+
+# Recursive "clean" directory target.
+lab8\clean: lab8\CMakeFiles\lab8.dir\clean
+.PHONY : lab8\clean
+
+#=============================================================================
+# Directory level rules for directory lab9
+
+# Recursive "all" directory target.
+lab9\all: lab9\CMakeFiles\lab9.dir\all
+.PHONY : lab9\all
+
+# Recursive "preinstall" directory target.
+lab9\preinstall:
+.PHONY : lab9\preinstall
+
+# Recursive "clean" directory target.
+lab9\clean: lab9\CMakeFiles\lab9.dir\clean
+.PHONY : lab9\clean
+
+#=============================================================================
 # Directory level rules for directory matrixApp
 
 # Recursive "all" directory target.
@@ -357,7 +447,7 @@ allocation_basics\CMakeFiles\allocation_basics.dir\clean:
 simple_calc\CMakeFiles\simple_calc.dir\all:
 	$(MAKE) $(MAKESILENT) -f simple_calc\CMakeFiles\simple_calc.dir\build.make /nologo -$(MAKEFLAGS) simple_calc\CMakeFiles\simple_calc.dir\depend
 	$(MAKE) $(MAKESILENT) -f simple_calc\CMakeFiles\simple_calc.dir\build.make /nologo -$(MAKEFLAGS) simple_calc\CMakeFiles\simple_calc.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\ASUS\CLionProjects\JIPP2\cmake-build-debug\CMakeFiles --progress-num=29,30,31 "Built target simple_calc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\ASUS\CLionProjects\JIPP2\cmake-build-debug\CMakeFiles --progress-num=45,46,47 "Built target simple_calc"
 .PHONY : simple_calc\CMakeFiles\simple_calc.dir\all
 
 # Build rule for subdir invocation for target.
@@ -435,7 +525,7 @@ first_lib_call\CMakeFiles\first_lib_call.dir\clean:
 lab4_zadania\structures\CMakeFiles\structures.dir\all:
 	$(MAKE) $(MAKESILENT) -f lab4_zadania\structures\CMakeFiles\structures.dir\build.make /nologo -$(MAKEFLAGS) lab4_zadania\structures\CMakeFiles\structures.dir\depend
 	$(MAKE) $(MAKESILENT) -f lab4_zadania\structures\CMakeFiles\structures.dir\build.make /nologo -$(MAKEFLAGS) lab4_zadania\structures\CMakeFiles\structures.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\ASUS\CLionProjects\JIPP2\cmake-build-debug\CMakeFiles --progress-num=32,33 "Built target structures"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\ASUS\CLionProjects\JIPP2\cmake-build-debug\CMakeFiles --progress-num=48,49 "Built target structures"
 .PHONY : lab4_zadania\structures\CMakeFiles\structures.dir\all
 
 # Build rule for subdir invocation for target.
@@ -461,7 +551,7 @@ lab4_zadania\structures\CMakeFiles\structures.dir\clean:
 lab4_zadania\classes\prostopadloscian\CMakeFiles\prostopadloscian.dir\all:
 	$(MAKE) $(MAKESILENT) -f lab4_zadania\classes\prostopadloscian\CMakeFiles\prostopadloscian.dir\build.make /nologo -$(MAKEFLAGS) lab4_zadania\classes\prostopadloscian\CMakeFiles\prostopadloscian.dir\depend
 	$(MAKE) $(MAKESILENT) -f lab4_zadania\classes\prostopadloscian\CMakeFiles\prostopadloscian.dir\build.make /nologo -$(MAKEFLAGS) lab4_zadania\classes\prostopadloscian\CMakeFiles\prostopadloscian.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\ASUS\CLionProjects\JIPP2\cmake-build-debug\CMakeFiles --progress-num=23,24,25 "Built target prostopadloscian"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\ASUS\CLionProjects\JIPP2\cmake-build-debug\CMakeFiles --progress-num=39,40,41 "Built target prostopadloscian"
 .PHONY : lab4_zadania\classes\prostopadloscian\CMakeFiles\prostopadloscian.dir\all
 
 # Build rule for subdir invocation for target.
@@ -513,7 +603,7 @@ lab4_zadania\classes\kula\CMakeFiles\kula.dir\clean:
 lab4_zadania\classes\punkt\CMakeFiles\punkt.dir\all:
 	$(MAKE) $(MAKESILENT) -f lab4_zadania\classes\punkt\CMakeFiles\punkt.dir\build.make /nologo -$(MAKEFLAGS) lab4_zadania\classes\punkt\CMakeFiles\punkt.dir\depend
 	$(MAKE) $(MAKESILENT) -f lab4_zadania\classes\punkt\CMakeFiles\punkt.dir\build.make /nologo -$(MAKEFLAGS) lab4_zadania\classes\punkt\CMakeFiles\punkt.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\ASUS\CLionProjects\JIPP2\cmake-build-debug\CMakeFiles --progress-num=26,27,28 "Built target punkt"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\ASUS\CLionProjects\JIPP2\cmake-build-debug\CMakeFiles --progress-num=42,43,44 "Built target punkt"
 .PHONY : lab4_zadania\classes\punkt\CMakeFiles\punkt.dir\all
 
 # Build rule for subdir invocation for target.
@@ -565,7 +655,7 @@ lab4_zadania\classes\dekonstruktor\CMakeFiles\dekonstruktor.dir\clean:
 matrixApp\CMakeFiles\matrixApp.dir\all: matrixLib\CMakeFiles\matrixLib.dir\all
 	$(MAKE) $(MAKESILENT) -f matrixApp\CMakeFiles\matrixApp.dir\build.make /nologo -$(MAKEFLAGS) matrixApp\CMakeFiles\matrixApp.dir\depend
 	$(MAKE) $(MAKESILENT) -f matrixApp\CMakeFiles\matrixApp.dir\build.make /nologo -$(MAKEFLAGS) matrixApp\CMakeFiles\matrixApp.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\ASUS\CLionProjects\JIPP2\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target matrixApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\ASUS\CLionProjects\JIPP2\cmake-build-debug\CMakeFiles --progress-num=35,36 "Built target matrixApp"
 .PHONY : matrixApp\CMakeFiles\matrixApp.dir\all
 
 # Build rule for subdir invocation for target.
@@ -591,7 +681,7 @@ matrixApp\CMakeFiles\matrixApp.dir\clean:
 matrixLib\CMakeFiles\matrixLib.dir\all:
 	$(MAKE) $(MAKESILENT) -f matrixLib\CMakeFiles\matrixLib.dir\build.make /nologo -$(MAKEFLAGS) matrixLib\CMakeFiles\matrixLib.dir\depend
 	$(MAKE) $(MAKESILENT) -f matrixLib\CMakeFiles\matrixLib.dir\build.make /nologo -$(MAKEFLAGS) matrixLib\CMakeFiles\matrixLib.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\ASUS\CLionProjects\JIPP2\cmake-build-debug\CMakeFiles --progress-num=21,22 "Built target matrixLib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\ASUS\CLionProjects\JIPP2\cmake-build-debug\CMakeFiles --progress-num=37,38 "Built target matrixLib"
 .PHONY : matrixLib\CMakeFiles\matrixLib.dir\all
 
 # Build rule for subdir invocation for target.
@@ -643,7 +733,7 @@ lab5\CMakeFiles\e1NoCopyingConstructor.dir\clean:
 lab5_zadania\CMakeFiles\lab5_zadania.dir\all:
 	$(MAKE) $(MAKESILENT) -f lab5_zadania\CMakeFiles\lab5_zadania.dir\build.make /nologo -$(MAKEFLAGS) lab5_zadania\CMakeFiles\lab5_zadania.dir\depend
 	$(MAKE) $(MAKESILENT) -f lab5_zadania\CMakeFiles\lab5_zadania.dir\build.make /nologo -$(MAKEFLAGS) lab5_zadania\CMakeFiles\lab5_zadania.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\ASUS\CLionProjects\JIPP2\cmake-build-debug\CMakeFiles --progress-num=16,17,18 "Built target lab5_zadania"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\ASUS\CLionProjects\JIPP2\cmake-build-debug\CMakeFiles --progress-num=19,20,21 "Built target lab5_zadania"
 .PHONY : lab5_zadania\CMakeFiles\lab5_zadania.dir\all
 
 # Build rule for subdir invocation for target.
@@ -661,6 +751,136 @@ lab5_zadania: lab5_zadania\CMakeFiles\lab5_zadania.dir\rule
 lab5_zadania\CMakeFiles\lab5_zadania.dir\clean:
 	$(MAKE) $(MAKESILENT) -f lab5_zadania\CMakeFiles\lab5_zadania.dir\build.make /nologo -$(MAKEFLAGS) lab5_zadania\CMakeFiles\lab5_zadania.dir\clean
 .PHONY : lab5_zadania\CMakeFiles\lab5_zadania.dir\clean
+
+#=============================================================================
+# Target rules for target lab6/CMakeFiles/lab6.dir
+
+# All Build rule for target.
+lab6\CMakeFiles\lab6.dir\all:
+	$(MAKE) $(MAKESILENT) -f lab6\CMakeFiles\lab6.dir\build.make /nologo -$(MAKEFLAGS) lab6\CMakeFiles\lab6.dir\depend
+	$(MAKE) $(MAKESILENT) -f lab6\CMakeFiles\lab6.dir\build.make /nologo -$(MAKEFLAGS) lab6\CMakeFiles\lab6.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\ASUS\CLionProjects\JIPP2\cmake-build-debug\CMakeFiles --progress-num=22,23,24,25 "Built target lab6"
+.PHONY : lab6\CMakeFiles\lab6.dir\all
+
+# Build rule for subdir invocation for target.
+lab6\CMakeFiles\lab6.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ASUS\CLionProjects\JIPP2\cmake-build-debug\CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) lab6\CMakeFiles\lab6.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ASUS\CLionProjects\JIPP2\cmake-build-debug\CMakeFiles 0
+.PHONY : lab6\CMakeFiles\lab6.dir\rule
+
+# Convenience name for target.
+lab6: lab6\CMakeFiles\lab6.dir\rule
+.PHONY : lab6
+
+# clean rule for target.
+lab6\CMakeFiles\lab6.dir\clean:
+	$(MAKE) $(MAKESILENT) -f lab6\CMakeFiles\lab6.dir\build.make /nologo -$(MAKEFLAGS) lab6\CMakeFiles\lab6.dir\clean
+.PHONY : lab6\CMakeFiles\lab6.dir\clean
+
+#=============================================================================
+# Target rules for target lab7/CMakeFiles/lab7.dir
+
+# All Build rule for target.
+lab7\CMakeFiles\lab7.dir\all:
+	$(MAKE) $(MAKESILENT) -f lab7\CMakeFiles\lab7.dir\build.make /nologo -$(MAKEFLAGS) lab7\CMakeFiles\lab7.dir\depend
+	$(MAKE) $(MAKESILENT) -f lab7\CMakeFiles\lab7.dir\build.make /nologo -$(MAKEFLAGS) lab7\CMakeFiles\lab7.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\ASUS\CLionProjects\JIPP2\cmake-build-debug\CMakeFiles --progress-num=26,27 "Built target lab7"
+.PHONY : lab7\CMakeFiles\lab7.dir\all
+
+# Build rule for subdir invocation for target.
+lab7\CMakeFiles\lab7.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ASUS\CLionProjects\JIPP2\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) lab7\CMakeFiles\lab7.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ASUS\CLionProjects\JIPP2\cmake-build-debug\CMakeFiles 0
+.PHONY : lab7\CMakeFiles\lab7.dir\rule
+
+# Convenience name for target.
+lab7: lab7\CMakeFiles\lab7.dir\rule
+.PHONY : lab7
+
+# clean rule for target.
+lab7\CMakeFiles\lab7.dir\clean:
+	$(MAKE) $(MAKESILENT) -f lab7\CMakeFiles\lab7.dir\build.make /nologo -$(MAKEFLAGS) lab7\CMakeFiles\lab7.dir\clean
+.PHONY : lab7\CMakeFiles\lab7.dir\clean
+
+#=============================================================================
+# Target rules for target lab8/CMakeFiles/lab8.dir
+
+# All Build rule for target.
+lab8\CMakeFiles\lab8.dir\all:
+	$(MAKE) $(MAKESILENT) -f lab8\CMakeFiles\lab8.dir\build.make /nologo -$(MAKEFLAGS) lab8\CMakeFiles\lab8.dir\depend
+	$(MAKE) $(MAKESILENT) -f lab8\CMakeFiles\lab8.dir\build.make /nologo -$(MAKEFLAGS) lab8\CMakeFiles\lab8.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\ASUS\CLionProjects\JIPP2\cmake-build-debug\CMakeFiles --progress-num=28,29,30 "Built target lab8"
+.PHONY : lab8\CMakeFiles\lab8.dir\all
+
+# Build rule for subdir invocation for target.
+lab8\CMakeFiles\lab8.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ASUS\CLionProjects\JIPP2\cmake-build-debug\CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) lab8\CMakeFiles\lab8.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ASUS\CLionProjects\JIPP2\cmake-build-debug\CMakeFiles 0
+.PHONY : lab8\CMakeFiles\lab8.dir\rule
+
+# Convenience name for target.
+lab8: lab8\CMakeFiles\lab8.dir\rule
+.PHONY : lab8
+
+# clean rule for target.
+lab8\CMakeFiles\lab8.dir\clean:
+	$(MAKE) $(MAKESILENT) -f lab8\CMakeFiles\lab8.dir\build.make /nologo -$(MAKEFLAGS) lab8\CMakeFiles\lab8.dir\clean
+.PHONY : lab8\CMakeFiles\lab8.dir\clean
+
+#=============================================================================
+# Target rules for target lab9/CMakeFiles/lab9.dir
+
+# All Build rule for target.
+lab9\CMakeFiles\lab9.dir\all:
+	$(MAKE) $(MAKESILENT) -f lab9\CMakeFiles\lab9.dir\build.make /nologo -$(MAKEFLAGS) lab9\CMakeFiles\lab9.dir\depend
+	$(MAKE) $(MAKESILENT) -f lab9\CMakeFiles\lab9.dir\build.make /nologo -$(MAKEFLAGS) lab9\CMakeFiles\lab9.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\ASUS\CLionProjects\JIPP2\cmake-build-debug\CMakeFiles --progress-num=31,32,33,34 "Built target lab9"
+.PHONY : lab9\CMakeFiles\lab9.dir\all
+
+# Build rule for subdir invocation for target.
+lab9\CMakeFiles\lab9.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ASUS\CLionProjects\JIPP2\cmake-build-debug\CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) lab9\CMakeFiles\lab9.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ASUS\CLionProjects\JIPP2\cmake-build-debug\CMakeFiles 0
+.PHONY : lab9\CMakeFiles\lab9.dir\rule
+
+# Convenience name for target.
+lab9: lab9\CMakeFiles\lab9.dir\rule
+.PHONY : lab9
+
+# clean rule for target.
+lab9\CMakeFiles\lab9.dir\clean:
+	$(MAKE) $(MAKESILENT) -f lab9\CMakeFiles\lab9.dir\build.make /nologo -$(MAKEFLAGS) lab9\CMakeFiles\lab9.dir\clean
+.PHONY : lab9\CMakeFiles\lab9.dir\clean
+
+#=============================================================================
+# Target rules for target lab10/CMakeFiles/lab10.dir
+
+# All Build rule for target.
+lab10\CMakeFiles\lab10.dir\all:
+	$(MAKE) $(MAKESILENT) -f lab10\CMakeFiles\lab10.dir\build.make /nologo -$(MAKEFLAGS) lab10\CMakeFiles\lab10.dir\depend
+	$(MAKE) $(MAKESILENT) -f lab10\CMakeFiles\lab10.dir\build.make /nologo -$(MAKEFLAGS) lab10\CMakeFiles\lab10.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\ASUS\CLionProjects\JIPP2\cmake-build-debug\CMakeFiles --progress-num=16,17,18 "Built target lab10"
+.PHONY : lab10\CMakeFiles\lab10.dir\all
+
+# Build rule for subdir invocation for target.
+lab10\CMakeFiles\lab10.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ASUS\CLionProjects\JIPP2\cmake-build-debug\CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) lab10\CMakeFiles\lab10.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ASUS\CLionProjects\JIPP2\cmake-build-debug\CMakeFiles 0
+.PHONY : lab10\CMakeFiles\lab10.dir\rule
+
+# Convenience name for target.
+lab10: lab10\CMakeFiles\lab10.dir\rule
+.PHONY : lab10
+
+# clean rule for target.
+lab10\CMakeFiles\lab10.dir\clean:
+	$(MAKE) $(MAKESILENT) -f lab10\CMakeFiles\lab10.dir\build.make /nologo -$(MAKEFLAGS) lab10\CMakeFiles\lab10.dir\clean
+.PHONY : lab10\CMakeFiles\lab10.dir\clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

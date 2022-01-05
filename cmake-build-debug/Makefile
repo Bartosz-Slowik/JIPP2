@@ -274,6 +274,71 @@ lab5_zadania\fast:
 	$(MAKE) $(MAKESILENT) -f lab5_zadania\CMakeFiles\lab5_zadania.dir\build.make /nologo -$(MAKEFLAGS) lab5_zadania\CMakeFiles\lab5_zadania.dir\build
 .PHONY : lab5_zadania\fast
 
+#=============================================================================
+# Target rules for targets named lab6
+
+# Build rule for target.
+lab6: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) lab6
+.PHONY : lab6
+
+# fast build rule for target.
+lab6\fast:
+	$(MAKE) $(MAKESILENT) -f lab6\CMakeFiles\lab6.dir\build.make /nologo -$(MAKEFLAGS) lab6\CMakeFiles\lab6.dir\build
+.PHONY : lab6\fast
+
+#=============================================================================
+# Target rules for targets named lab7
+
+# Build rule for target.
+lab7: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) lab7
+.PHONY : lab7
+
+# fast build rule for target.
+lab7\fast:
+	$(MAKE) $(MAKESILENT) -f lab7\CMakeFiles\lab7.dir\build.make /nologo -$(MAKEFLAGS) lab7\CMakeFiles\lab7.dir\build
+.PHONY : lab7\fast
+
+#=============================================================================
+# Target rules for targets named lab8
+
+# Build rule for target.
+lab8: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) lab8
+.PHONY : lab8
+
+# fast build rule for target.
+lab8\fast:
+	$(MAKE) $(MAKESILENT) -f lab8\CMakeFiles\lab8.dir\build.make /nologo -$(MAKEFLAGS) lab8\CMakeFiles\lab8.dir\build
+.PHONY : lab8\fast
+
+#=============================================================================
+# Target rules for targets named lab9
+
+# Build rule for target.
+lab9: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) lab9
+.PHONY : lab9
+
+# fast build rule for target.
+lab9\fast:
+	$(MAKE) $(MAKESILENT) -f lab9\CMakeFiles\lab9.dir\build.make /nologo -$(MAKEFLAGS) lab9\CMakeFiles\lab9.dir\build
+.PHONY : lab9\fast
+
+#=============================================================================
+# Target rules for targets named lab10
+
+# Build rule for target.
+lab10: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) lab10
+.PHONY : lab10
+
+# fast build rule for target.
+lab10\fast:
+	$(MAKE) $(MAKESILENT) -f lab10\CMakeFiles\lab10.dir\build.make /nologo -$(MAKEFLAGS) lab10\CMakeFiles\lab10.dir\build
+.PHONY : lab10\fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -288,7 +353,12 @@ help:
 	@echo ... first_lib
 	@echo ... first_lib_call
 	@echo ... kula
+	@echo ... lab10
 	@echo ... lab5_zadania
+	@echo ... lab6
+	@echo ... lab7
+	@echo ... lab8
+	@echo ... lab9
 	@echo ... matrixApp
 	@echo ... matrixLib
 	@echo ... prostopadloscian
