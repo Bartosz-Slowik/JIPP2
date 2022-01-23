@@ -244,6 +244,12 @@ e1NoCopyingConstructor_BINARY_DIR:STATIC=C:/Users/ASUS/CLionProjects/JIPP2/cmake
 e1NoCopyingConstructor_SOURCE_DIR:STATIC=C:/Users/ASUS/CLionProjects/JIPP2/lab5
 
 //Value Computed by CMake
+externExample_BINARY_DIR:STATIC=C:/Users/ASUS/CLionProjects/JIPP2/cmake-build-debug/lab12/extern
+
+//Value Computed by CMake
+externExample_SOURCE_DIR:STATIC=C:/Users/ASUS/CLionProjects/JIPP2/lab12/extern
+
+//Value Computed by CMake
 first_classes_BINARY_DIR:STATIC=C:/Users/ASUS/CLionProjects/JIPP2/cmake-build-debug/lab4_zadania/classes
 
 //Value Computed by CMake
@@ -256,6 +262,18 @@ first_lib_BINARY_DIR:STATIC=C:/Users/ASUS/CLionProjects/JIPP2/cmake-build-debug/
 first_lib_SOURCE_DIR:STATIC=C:/Users/ASUS/CLionProjects/JIPP2/first_lib
 
 //Value Computed by CMake
+hej_BINARY_DIR:STATIC=C:/Users/ASUS/CLionProjects/JIPP2/cmake-build-debug/lab12/hej
+
+//Value Computed by CMake
+hej_SOURCE_DIR:STATIC=C:/Users/ASUS/CLionProjects/JIPP2/lab12/hej
+
+//Value Computed by CMake
+koncowy_BINARY_DIR:STATIC=C:/Users/ASUS/CLionProjects/JIPP2/cmake-build-debug/PROJEKT_KONCOWY
+
+//Value Computed by CMake
+koncowy_SOURCE_DIR:STATIC=C:/Users/ASUS/CLionProjects/JIPP2/PROJEKT_KONCOWY
+
+//Value Computed by CMake
 kula_BINARY_DIR:STATIC=C:/Users/ASUS/CLionProjects/JIPP2/cmake-build-debug/lab4_zadania/classes/kula
 
 //Value Computed by CMake
@@ -266,6 +284,12 @@ lab10_BINARY_DIR:STATIC=C:/Users/ASUS/CLionProjects/JIPP2/cmake-build-debug/lab1
 
 //Value Computed by CMake
 lab10_SOURCE_DIR:STATIC=C:/Users/ASUS/CLionProjects/JIPP2/lab10
+
+//Value Computed by CMake
+lab11_BINARY_DIR:STATIC=C:/Users/ASUS/CLionProjects/JIPP2/cmake-build-debug/lab11
+
+//Value Computed by CMake
+lab11_SOURCE_DIR:STATIC=C:/Users/ASUS/CLionProjects/JIPP2/lab11
 
 //Value Computed by CMake
 lab5_zadania_BINARY_DIR:STATIC=C:/Users/ASUS/CLionProjects/JIPP2/cmake-build-debug/lab5_zadania
@@ -304,6 +328,12 @@ matrixLib_BINARY_DIR:STATIC=C:/Users/ASUS/CLionProjects/JIPP2/cmake-build-debug/
 matrixLib_SOURCE_DIR:STATIC=C:/Users/ASUS/CLionProjects/JIPP2/matrixLib
 
 //Value Computed by CMake
+matrixTest_BINARY_DIR:STATIC=C:/Users/ASUS/CLionProjects/JIPP2/cmake-build-debug/lab12/Matrix
+
+//Value Computed by CMake
+matrixTest_SOURCE_DIR:STATIC=C:/Users/ASUS/CLionProjects/JIPP2/lab12/Matrix
+
+//Value Computed by CMake
 projekt1Lib_BINARY_DIR:STATIC=C:/Users/ASUS/CLionProjects/JIPP2/cmake-build-debug/matrixLib
 
 //Value Computed by CMake
@@ -338,6 +368,12 @@ structures_BINARY_DIR:STATIC=C:/Users/ASUS/CLionProjects/JIPP2/cmake-build-debug
 
 //Value Computed by CMake
 structures_SOURCE_DIR:STATIC=C:/Users/ASUS/CLionProjects/JIPP2/lab4_zadania/structures
+
+//Value Computed by CMake
+wOutExternExample_BINARY_DIR:STATIC=C:/Users/ASUS/CLionProjects/JIPP2/cmake-build-debug/lab12/withoutExtern
+
+//Value Computed by CMake
+wOutExternExample_SOURCE_DIR:STATIC=C:/Users/ASUS/CLionProjects/JIPP2/lab12/withoutExtern
 
 //Value Computed by CMake
 zadanie3_BINARY_DIR:STATIC=C:/Users/ASUS/CLionProjects/JIPP2/cmake-build-debug/lab4_zadania/classes/dekonstruktor
@@ -442,7 +478,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MT
 CMAKE_MT-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=21
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=27
 //Platform information initialized
 CMAKE_PLATFORM_INFO_INITIALIZED:INTERNAL=1
 //noop for ranlib

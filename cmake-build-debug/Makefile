@@ -339,6 +339,71 @@ lab10\fast:
 	$(MAKE) $(MAKESILENT) -f lab10\CMakeFiles\lab10.dir\build.make /nologo -$(MAKEFLAGS) lab10\CMakeFiles\lab10.dir\build
 .PHONY : lab10\fast
 
+#=============================================================================
+# Target rules for targets named externExample
+
+# Build rule for target.
+externExample: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) externExample
+.PHONY : externExample
+
+# fast build rule for target.
+externExample\fast:
+	$(MAKE) $(MAKESILENT) -f lab12\extern\CMakeFiles\externExample.dir\build.make /nologo -$(MAKEFLAGS) lab12\extern\CMakeFiles\externExample.dir\build
+.PHONY : externExample\fast
+
+#=============================================================================
+# Target rules for targets named wOutExternExample
+
+# Build rule for target.
+wOutExternExample: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) wOutExternExample
+.PHONY : wOutExternExample
+
+# fast build rule for target.
+wOutExternExample\fast:
+	$(MAKE) $(MAKESILENT) -f lab12\withoutExtern\CMakeFiles\wOutExternExample.dir\build.make /nologo -$(MAKEFLAGS) lab12\withoutExtern\CMakeFiles\wOutExternExample.dir\build
+.PHONY : wOutExternExample\fast
+
+#=============================================================================
+# Target rules for targets named matrixTest
+
+# Build rule for target.
+matrixTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) matrixTest
+.PHONY : matrixTest
+
+# fast build rule for target.
+matrixTest\fast:
+	$(MAKE) $(MAKESILENT) -f lab12\Matrix\CMakeFiles\matrixTest.dir\build.make /nologo -$(MAKEFLAGS) lab12\Matrix\CMakeFiles\matrixTest.dir\build
+.PHONY : matrixTest\fast
+
+#=============================================================================
+# Target rules for targets named hej
+
+# Build rule for target.
+hej: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) hej
+.PHONY : hej
+
+# fast build rule for target.
+hej\fast:
+	$(MAKE) $(MAKESILENT) -f lab12\hej\CMakeFiles\hej.dir\build.make /nologo -$(MAKEFLAGS) lab12\hej\CMakeFiles\hej.dir\build
+.PHONY : hej\fast
+
+#=============================================================================
+# Target rules for targets named koncowy
+
+# Build rule for target.
+koncowy: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) koncowy
+.PHONY : koncowy
+
+# fast build rule for target.
+koncowy\fast:
+	$(MAKE) $(MAKESILENT) -f PROJEKT_KONCOWY\CMakeFiles\koncowy.dir\build.make /nologo -$(MAKEFLAGS) PROJEKT_KONCOWY\CMakeFiles\koncowy.dir\build
+.PHONY : koncowy\fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -350,8 +415,11 @@ help:
 	@echo ... allocation_basics
 	@echo ... dekonstruktor
 	@echo ... e1NoCopyingConstructor
+	@echo ... externExample
 	@echo ... first_lib
 	@echo ... first_lib_call
+	@echo ... hej
+	@echo ... koncowy
 	@echo ... kula
 	@echo ... lab10
 	@echo ... lab5_zadania
@@ -361,10 +429,12 @@ help:
 	@echo ... lab9
 	@echo ... matrixApp
 	@echo ... matrixLib
+	@echo ... matrixTest
 	@echo ... prostopadloscian
 	@echo ... punkt
 	@echo ... simple_calc
 	@echo ... structures
+	@echo ... wOutExternExample
 .PHONY : help
 
 

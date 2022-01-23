@@ -5,7 +5,7 @@
 		<Option title="Project"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="msvc8"/>
-		<Option virtualFolders="CMake Files\;CMake Files\allocation_basics\;CMake Files\simple_calc\;CMake Files\first_lib\;CMake Files\first_lib_call\;CMake Files\lab4_zadania\;CMake Files\lab4_zadania\structures\;CMake Files\lab4_zadania\classes\;CMake Files\lab4_zadania\classes\prostopadloscian\;CMake Files\lab4_zadania\classes\kula\;CMake Files\lab4_zadania\classes\punkt\;CMake Files\lab4_zadania\classes\dekonstruktor\;CMake Files\matrixApp\;CMake Files\matrixLib\;CMake Files\lab5\;CMake Files\lab5_zadania\;CMake Files\lab6\;CMake Files\lab7\;CMake Files\lab8\;CMake Files\lab9\;CMake Files\lab10\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\allocation_basics\;CMake Files\simple_calc\;CMake Files\first_lib\;CMake Files\first_lib_call\;CMake Files\lab4_zadania\;CMake Files\lab4_zadania\structures\;CMake Files\lab4_zadania\classes\;CMake Files\lab4_zadania\classes\prostopadloscian\;CMake Files\lab4_zadania\classes\kula\;CMake Files\lab4_zadania\classes\punkt\;CMake Files\lab4_zadania\classes\dekonstruktor\;CMake Files\matrixApp\;CMake Files\matrixLib\;CMake Files\lab5\;CMake Files\lab5_zadania\;CMake Files\lab6\;CMake Files\lab7\;CMake Files\lab8\;CMake Files\lab9\;CMake Files\lab10\;CMake Files\lab12\;CMake Files\lab12\extern\;CMake Files\lab12\withoutExtern\;CMake Files\lab12\Matrix\;CMake Files\lab12\hej\;CMake Files\PROJEKT_KONCOWY\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="C:/Users/ASUS/CLionProjects/JIPP2/cmake-build-debug"/>
@@ -891,7 +891,254 @@
 					<DistClean command="nmake /NOLOGO /f C:\Users\ASUS\CLionProjects\JIPP2\cmake-build-debug\lab10\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="externExample">
+				<Option output="C:/Users/ASUS/CLionProjects/JIPP2/cmake-build-debug/lab12/extern/externExample.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ASUS/CLionProjects/JIPP2/cmake-build-debug/lab12/extern"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\ASUS\CLionProjects\JIPP2\cmake-build-debug\lab12\extern\Makefile VERBOSE=1 externExample"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\ASUS\CLionProjects\JIPP2\cmake-build-debug\lab12\extern\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\ASUS\CLionProjects\JIPP2\cmake-build-debug\lab12\extern\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\ASUS\CLionProjects\JIPP2\cmake-build-debug\lab12\extern\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="externExample/fast">
+				<Option output="C:/Users/ASUS/CLionProjects/JIPP2/cmake-build-debug/lab12/extern/externExample.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ASUS/CLionProjects/JIPP2/cmake-build-debug/lab12/extern"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\ASUS\CLionProjects\JIPP2\cmake-build-debug\lab12\extern\Makefile VERBOSE=1 externExample/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\ASUS\CLionProjects\JIPP2\cmake-build-debug\lab12\extern\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\ASUS\CLionProjects\JIPP2\cmake-build-debug\lab12\extern\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\ASUS\CLionProjects\JIPP2\cmake-build-debug\lab12\extern\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="wOutExternExample">
+				<Option output="C:/Users/ASUS/CLionProjects/JIPP2/cmake-build-debug/lab12/withoutExtern/wOutExternExample.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ASUS/CLionProjects/JIPP2/cmake-build-debug/lab12/withoutExtern"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\ASUS\CLionProjects\JIPP2\cmake-build-debug\lab12\withoutExtern\Makefile VERBOSE=1 wOutExternExample"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\ASUS\CLionProjects\JIPP2\cmake-build-debug\lab12\withoutExtern\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\ASUS\CLionProjects\JIPP2\cmake-build-debug\lab12\withoutExtern\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\ASUS\CLionProjects\JIPP2\cmake-build-debug\lab12\withoutExtern\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="wOutExternExample/fast">
+				<Option output="C:/Users/ASUS/CLionProjects/JIPP2/cmake-build-debug/lab12/withoutExtern/wOutExternExample.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ASUS/CLionProjects/JIPP2/cmake-build-debug/lab12/withoutExtern"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\ASUS\CLionProjects\JIPP2\cmake-build-debug\lab12\withoutExtern\Makefile VERBOSE=1 wOutExternExample/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\ASUS\CLionProjects\JIPP2\cmake-build-debug\lab12\withoutExtern\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\ASUS\CLionProjects\JIPP2\cmake-build-debug\lab12\withoutExtern\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\ASUS\CLionProjects\JIPP2\cmake-build-debug\lab12\withoutExtern\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="matrixTest">
+				<Option output="C:/Users/ASUS/CLionProjects/JIPP2/cmake-build-debug/lab12/Matrix/matrixTest.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ASUS/CLionProjects/JIPP2/cmake-build-debug/lab12/Matrix"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/ASUS/CLionProjects/JIPP2/lab12/Matrix/include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\ASUS\CLionProjects\JIPP2\cmake-build-debug\lab12\Matrix\Makefile VERBOSE=1 matrixTest"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\ASUS\CLionProjects\JIPP2\cmake-build-debug\lab12\Matrix\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\ASUS\CLionProjects\JIPP2\cmake-build-debug\lab12\Matrix\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\ASUS\CLionProjects\JIPP2\cmake-build-debug\lab12\Matrix\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="matrixTest/fast">
+				<Option output="C:/Users/ASUS/CLionProjects/JIPP2/cmake-build-debug/lab12/Matrix/matrixTest.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ASUS/CLionProjects/JIPP2/cmake-build-debug/lab12/Matrix"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/ASUS/CLionProjects/JIPP2/lab12/Matrix/include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\ASUS\CLionProjects\JIPP2\cmake-build-debug\lab12\Matrix\Makefile VERBOSE=1 matrixTest/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\ASUS\CLionProjects\JIPP2\cmake-build-debug\lab12\Matrix\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\ASUS\CLionProjects\JIPP2\cmake-build-debug\lab12\Matrix\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\ASUS\CLionProjects\JIPP2\cmake-build-debug\lab12\Matrix\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hej">
+				<Option output="C:/Users/ASUS/CLionProjects/JIPP2/cmake-build-debug/lab12/hej/hej.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ASUS/CLionProjects/JIPP2/cmake-build-debug/lab12/hej"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\ASUS\CLionProjects\JIPP2\cmake-build-debug\lab12\hej\Makefile VERBOSE=1 hej"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\ASUS\CLionProjects\JIPP2\cmake-build-debug\lab12\hej\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\ASUS\CLionProjects\JIPP2\cmake-build-debug\lab12\hej\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\ASUS\CLionProjects\JIPP2\cmake-build-debug\lab12\hej\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hej/fast">
+				<Option output="C:/Users/ASUS/CLionProjects/JIPP2/cmake-build-debug/lab12/hej/hej.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ASUS/CLionProjects/JIPP2/cmake-build-debug/lab12/hej"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\ASUS\CLionProjects\JIPP2\cmake-build-debug\lab12\hej\Makefile VERBOSE=1 hej/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\ASUS\CLionProjects\JIPP2\cmake-build-debug\lab12\hej\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\ASUS\CLionProjects\JIPP2\cmake-build-debug\lab12\hej\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\ASUS\CLionProjects\JIPP2\cmake-build-debug\lab12\hej\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="koncowy">
+				<Option output="C:/Users/ASUS/CLionProjects/JIPP2/cmake-build-debug/PROJEKT_KONCOWY/koncowy.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ASUS/CLionProjects/JIPP2/cmake-build-debug/PROJEKT_KONCOWY"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\ASUS\CLionProjects\JIPP2\cmake-build-debug\PROJEKT_KONCOWY\Makefile VERBOSE=1 koncowy"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\ASUS\CLionProjects\JIPP2\cmake-build-debug\PROJEKT_KONCOWY\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\ASUS\CLionProjects\JIPP2\cmake-build-debug\PROJEKT_KONCOWY\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\ASUS\CLionProjects\JIPP2\cmake-build-debug\PROJEKT_KONCOWY\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="koncowy/fast">
+				<Option output="C:/Users/ASUS/CLionProjects/JIPP2/cmake-build-debug/PROJEKT_KONCOWY/koncowy.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ASUS/CLionProjects/JIPP2/cmake-build-debug/PROJEKT_KONCOWY"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\ASUS\CLionProjects\JIPP2\cmake-build-debug\PROJEKT_KONCOWY\Makefile VERBOSE=1 koncowy/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\ASUS\CLionProjects\JIPP2\cmake-build-debug\PROJEKT_KONCOWY\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\ASUS\CLionProjects\JIPP2\cmake-build-debug\PROJEKT_KONCOWY\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\ASUS\CLionProjects\JIPP2\cmake-build-debug\PROJEKT_KONCOWY\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
+		<Unit filename="C:/Users/ASUS/CLionProjects/JIPP2/PROJEKT_KONCOWY/Plansza.cpp">
+			<Option target="koncowy"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/CLionProjects/JIPP2/PROJEKT_KONCOWY/Plansza.h">
+			<Option target="koncowy"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/CLionProjects/JIPP2/PROJEKT_KONCOWY/Pole.cpp">
+			<Option target="koncowy"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/CLionProjects/JIPP2/PROJEKT_KONCOWY/Pole.h">
+			<Option target="koncowy"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/CLionProjects/JIPP2/PROJEKT_KONCOWY/main.cpp">
+			<Option target="koncowy"/>
+		</Unit>
 		<Unit filename="C:/Users/ASUS/CLionProjects/JIPP2/allocation_basics/main.cpp">
 			<Option target="allocation_basics"/>
 		</Unit>
@@ -909,6 +1156,33 @@
 		</Unit>
 		<Unit filename="C:/Users/ASUS/CLionProjects/JIPP2/lab10/main.cpp">
 			<Option target="lab10"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/CLionProjects/JIPP2/lab12/Matrix/src/TimeMeasure.cpp">
+			<Option target="matrixTest"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/CLionProjects/JIPP2/lab12/Matrix/src/main.cpp">
+			<Option target="matrixTest"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/CLionProjects/JIPP2/lab12/extern/src/functions.cpp">
+			<Option target="externExample"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/CLionProjects/JIPP2/lab12/extern/src/functions.h">
+			<Option target="externExample"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/CLionProjects/JIPP2/lab12/extern/src/main.cpp">
+			<Option target="externExample"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/CLionProjects/JIPP2/lab12/hej/main.cpp">
+			<Option target="hej"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/CLionProjects/JIPP2/lab12/withoutExtern/src/functions.cpp">
+			<Option target="wOutExternExample"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/CLionProjects/JIPP2/lab12/withoutExtern/src/functions.h">
+			<Option target="wOutExternExample"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/CLionProjects/JIPP2/lab12/withoutExtern/src/main.cpp">
+			<Option target="wOutExternExample"/>
 		</Unit>
 		<Unit filename="C:/Users/ASUS/CLionProjects/JIPP2/lab4_zadania/classes/dekonstruktor/src/klasa.cpp">
 			<Option target="dekonstruktor"/>
@@ -1056,6 +1330,24 @@
 		</Unit>
 		<Unit filename="C:/Users/ASUS/CLionProjects/JIPP2/lab10/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab10\"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/CLionProjects/JIPP2/lab12/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab12\"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/CLionProjects/JIPP2/lab12/extern/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab12\extern\"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/CLionProjects/JIPP2/lab12/withoutExtern/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab12\withoutExtern\"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/CLionProjects/JIPP2/lab12/Matrix/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab12\Matrix\"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/CLionProjects/JIPP2/lab12/hej/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab12\hej\"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/CLionProjects/JIPP2/PROJEKT_KONCOWY/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\PROJEKT_KONCOWY\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

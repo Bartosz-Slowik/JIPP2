@@ -28,6 +28,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/JetBrains/CLion 2021.2.2/bin/cmake/win/share/cmake-3.20/Modules/Platform/WindowsPaths.cmake"
   "C:/Program Files/JetBrains/CLion 2021.2.2/bin/cmake/win/share/cmake-3.20/Modules/ProcessorCount.cmake"
   "../CMakeLists.txt"
+  "../PROJEKT_KONCOWY/CMakeLists.txt"
   "../allocation_basics/CMakeLists.txt"
   "CMakeFiles/3.20.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.20.2/CMakeCXXCompiler.cmake"
@@ -36,6 +37,11 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../first_lib/CMakeLists.txt"
   "../first_lib_call/CMakeLists.txt"
   "../lab10/CMakeLists.txt"
+  "../lab12/CMakeLists.txt"
+  "../lab12/Matrix/CMakeLists.txt"
+  "../lab12/extern/CMakeLists.txt"
+  "../lab12/hej/CMakeLists.txt"
+  "../lab12/withoutExtern/CMakeLists.txt"
   "../lab4_zadania/CMakeLists.txt"
   "../lab4_zadania/classes/CMakeLists.txt"
   "../lab4_zadania/classes/dekonstruktor/CMakeLists.txt"
@@ -83,6 +89,12 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "lab8/CMakeFiles/CMakeDirectoryInformation.cmake"
   "lab9/CMakeFiles/CMakeDirectoryInformation.cmake"
   "lab10/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "lab12/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "lab12/extern/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "lab12/withoutExtern/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "lab12/Matrix/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "lab12/hej/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "PROJEKT_KONCOWY/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -105,4 +117,9 @@ set(CMAKE_DEPEND_INFO_FILES
   "lab8/CMakeFiles/lab8.dir/DependInfo.cmake"
   "lab9/CMakeFiles/lab9.dir/DependInfo.cmake"
   "lab10/CMakeFiles/lab10.dir/DependInfo.cmake"
+  "lab12/extern/CMakeFiles/externExample.dir/DependInfo.cmake"
+  "lab12/withoutExtern/CMakeFiles/wOutExternExample.dir/DependInfo.cmake"
+  "lab12/Matrix/CMakeFiles/matrixTest.dir/DependInfo.cmake"
+  "lab12/hej/CMakeFiles/hej.dir/DependInfo.cmake"
+  "PROJEKT_KONCOWY/CMakeFiles/koncowy.dir/DependInfo.cmake"
   )

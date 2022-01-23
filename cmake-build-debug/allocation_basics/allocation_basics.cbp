@@ -5,7 +5,7 @@
 		<Option title="allocation_basics"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="msvc8"/>
-		<Option virtualFolders="CMake Files\;CMake Files\allocation_basics\;CMake Files\simple_calc\;CMake Files\first_lib\;CMake Files\first_lib_call\;CMake Files\lab4_zadania\;CMake Files\lab4_zadania\structures\;CMake Files\lab4_zadania\classes\;CMake Files\lab4_zadania\classes\prostopadloscian\;CMake Files\lab4_zadania\classes\kula\;CMake Files\lab4_zadania\classes\punkt\;CMake Files\lab4_zadania\classes\dekonstruktor\;CMake Files\matrixApp\;CMake Files\matrixLib\;CMake Files\lab5\;CMake Files\lab5_zadania\;CMake Files\lab6\;CMake Files\lab7\;CMake Files\lab8\;CMake Files\lab9\;CMake Files\lab10\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\allocation_basics\;CMake Files\simple_calc\;CMake Files\first_lib\;CMake Files\first_lib_call\;CMake Files\lab4_zadania\;CMake Files\lab4_zadania\structures\;CMake Files\lab4_zadania\classes\;CMake Files\lab4_zadania\classes\prostopadloscian\;CMake Files\lab4_zadania\classes\kula\;CMake Files\lab4_zadania\classes\punkt\;CMake Files\lab4_zadania\classes\dekonstruktor\;CMake Files\matrixApp\;CMake Files\matrixLib\;CMake Files\lab5\;CMake Files\lab5_zadania\;CMake Files\lab6\;CMake Files\lab7\;CMake Files\lab8\;CMake Files\lab9\;CMake Files\lab10\;CMake Files\lab12\;CMake Files\lab12\extern\;CMake Files\lab12\withoutExtern\;CMake Files\lab12\Matrix\;CMake Files\lab12\hej\;CMake Files\PROJEKT_KONCOWY\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="C:/Users/ASUS/CLionProjects/JIPP2/cmake-build-debug/allocation_basics"/>
@@ -129,6 +129,24 @@
 		</Unit>
 		<Unit filename="C:/Users/ASUS/CLionProjects/JIPP2/lab10/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab10\"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/CLionProjects/JIPP2/lab12/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab12\"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/CLionProjects/JIPP2/lab12/extern/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab12\extern\"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/CLionProjects/JIPP2/lab12/withoutExtern/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab12\withoutExtern\"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/CLionProjects/JIPP2/lab12/Matrix/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab12\Matrix\"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/CLionProjects/JIPP2/lab12/hej/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab12\hej\"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/CLionProjects/JIPP2/PROJEKT_KONCOWY/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\PROJEKT_KONCOWY\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>
